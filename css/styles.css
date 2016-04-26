@@ -4,18 +4,63 @@
 
 /* Color Palette */
 
+.color-1{background: orange;}
+
+.color-2{background: black;}
 
 /* Textures or Patterns*/
-
+.pattern-1{
+    
+    background: url("https://s-media-cache-ak0.pinimg.com/736x/17/bd/6d/17bd6d192a2ae8b24aba93cd72da93cb.jpg");
+    background-clip: 100%;
+    
+    
+}
 
 /* Imagery */
 
-
 /* Icons */
 
-
+    .icon-1{
+        
+        border: none;
+    }
+    
 /* Navigation */
 
+    nav li {
+        
+        list-style: none;
+    }
+    
+    nav a:link {
+        
+        text-decoration: none;
+        color: blue;
+        text-transform: uppercase;
+        letter-spacing: 2px;    
+    }
+    
+    
+    nav a:hover{
+        
+        color: red;
+    }
 
+button{
+    padding: 1em;
+    background: wheat;
+    color: orange;
+    border: black solid 4px;
+    border-radius: 10px;
+    font-family: 'Lobster Two', cursive;
+}
 /* Typography */
+
+h2, h2{
+    
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.25em;
+    color: orange;
+}
 
