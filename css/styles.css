@@ -2,11 +2,20 @@
 /* YOUR STYLES */
 /***************/
 
+body{
+    
+    background: lightgray;
+}
 /* Color Palette */
 
-.color-1{background: orange;}
+.color-1{background: #281A1A;}
 
-.color-2{background: black;}
+.color-2{background: #4E2D28;}
+.color-3{background: #70454E;}
+.color-4{background: #AE736F;}
+.color-5{background: #DDA8B0;}
+
+/*http://www.colourlovers.com/palette/1695805/City_of_God*/
 
 /* Textures or Patterns*/
 .pattern-1{
@@ -41,15 +50,24 @@
     
 }
 
+/*http://subtlepatterns.com/*/
+
+
+
 /* Imagery */
+
+/*https://unsplash.com/*/
 
 /* Icons */
 
-    .icon-1{
+    .icon-1, .icon-2, .icon-3{
         
         border: none;
     }
     
+/*http://iconmonstr.com/*/
+
+
 /* Navigation */
 
     nav li {
@@ -60,7 +78,7 @@
     nav a:link {
         
         text-decoration: none;
-        color: blue;
+        color: darkgray;
         text-transform: uppercase;
         letter-spacing: 2px;    
     }
@@ -68,23 +86,35 @@
     
     nav a:hover{
         
-        color: red;
+        color: #70454E;
     }
 
 button{
     padding: 1em;
-    background: wheat;
-    color: orange;
+    background: black;
+    color:darkgray;
     border: black solid 4px;
     border-radius: 10px;
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    
+    text-decoration: none;
+    color: #70454E;
 }
 /* Typography */
 
-h2, h2{
+h2{
     
-    font-family: 'Lobster Two', cursive;
-    font-size: 1.25em;
-    color: orange;
+    font-family: 'Roboto', sans-serif;
+    font-size:2em;
+    color:black;
 }
 
+.header2{
+    
+    font-family: font-family: 'Arimo', sans-serif;
+    font-size:2em;
+    color: #70454E;
+}
