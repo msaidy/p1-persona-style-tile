@@ -11,7 +11,31 @@
 /* Textures or Patterns*/
 .pattern-1{
     
-    background: url("https://s-media-cache-ak0.pinimg.com/736x/17/bd/6d/17bd6d192a2ae8b24aba93cd72da93cb.jpg");
+    background:url("../img/dark_embroidery.png");
+    background-clip: 100%;
+    
+}
+.pattern-2{
+    
+    background:url("../img/footer_lodyas.png");
+    background-clip: 100%;
+    
+    
+}.pattern-3{
+    
+    background:url("../img/grey_wash_wall.png");
+    background-clip: 100%;
+    
+    
+}.pattern-4{
+    
+    background:url("../img/symphony.png");
+    background-clip: 100%;
+    
+    
+}.pattern-5{
+    
+    background:url("../img/wild_flowers.png");
     background-clip: 100%;
     
     
